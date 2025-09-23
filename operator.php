@@ -35,6 +35,9 @@ $hasilBagiTugas = ($x /= $y);
 $x = 10;
 $hasilSisaTugas = ($x %= $y);
 
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;
+
 echo "a = 10, b = 5 <br>";
 echo "Hasil Tambah = {$hasilTambah} <br>";
 echo "Hasil Kurang = {$hasilKurang} <br>";
@@ -59,4 +62,7 @@ echo "Penugasan -= : {$hasilKurangTugas}<br>";
 echo "Penugasan *= : {$hasilKaliTugas}<br>";
 echo "Penugasan /= : {$hasilBagiTugas}<br>";
 echo "Penugasan %= : {$hasilSisaTugas}<br>";
+
+echo "Hasil Identik : {$hasilIdentik}<br>";
+echo "Hasil Tidak Identik : {$hasilTidakIdentik}<br>";
 ?>
