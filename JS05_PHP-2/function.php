@@ -6,4 +6,5 @@ function perkenalan() {
 }
 
 perkenalan();
+perkenalan();
 ?>
