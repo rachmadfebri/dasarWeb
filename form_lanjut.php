@@ -28,10 +28,8 @@
     <br>
     <input type="submit" value="Submit">
   </form>
-</body>
-</html>
 
-<?php
+  <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $selectedBuah = $_POST['buah'];
 
@@ -54,3 +52,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Jenis kelamin Anda: " . $selectedJenisKelamin;
 }
 ?>
+</body>
+</html>
